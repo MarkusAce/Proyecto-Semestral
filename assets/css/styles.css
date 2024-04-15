@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------------------------------------------------------------*/
+body{/*Fondo de pantalla*/
+    background-color: #023C40;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.bajar{/*Bajar un poco el nav*/
+    padding-top: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.centrar_titulo{/*Centrar titulo Mega Games*/
+    text-align: center;
+    color: #AEB7B3;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.tamaño{/*tamaño carrusel*/
+    max-height: 800px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.separar_items{/*Separar el navbar : inicio, nosotros, juegos, iniciar session, registrarse*/
+    padding-right: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.inicio{/*Padding-left : para que nos que tan pegado a la izquierda*/
+    padding-left: 2rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.bordear{ /*Bordear fotos*/
+    border-radius: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.tam_foto{ /*Se ocupo para poner del mismo tamaño las mascotas en adopta.html*/
+    height: 15rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.btn:hover{ /*Diseño de lupa, carrito y perfil*/
+    background-color: #023C40;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+.nav-nuevo{
+    background-color:#AEB7B3;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.quitar-puntos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.espacio-il{
+    padding: 15px;
+}
+.color-il{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+
+.mover-derecha{
+    margin-right: 10px;
+}
+
+.logo{
+    display: inline-block;
+    max-width: 75px;
+    max-height: 75px;
+    
+}
+
+.tam-fuente{
+    font-size: 1.5rem;
+}
+
+.tam-titulo{
+    font-size: 3rem;
+}

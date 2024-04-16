@@ -29,7 +29,17 @@ body{/*Fondo de pantalla*/
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 .tam_foto{ /*Se ocupo para poner del mismo tamaño las mascotas en adopta.html*/
-    height: 15rem;
+    height: 20rem;
+    width: 100%;
+}
+.tamaño-card{
+    width: 20rem;
+}
+.texto-card{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 .btn:hover{ /*Diseño de lupa, carrito y perfil*/
@@ -77,5 +87,58 @@ body{/*Fondo de pantalla*/
 }
 
 .tam-titulo{
+    font-size: 4rem;
+}
+.tam-titulo2{
     font-size: 3rem;
+}
+
+.color-fondo{
+    background-color: #22333B;
+}
+
+.display-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cambiar-texto-footer{
+    list-style-type: none;
+    padding: 0;
+}
+.quitar-azul{
+    text-decoration: none;
+    color: white;
+}
+.quitar-azul2{
+    text-decoration: none;
+    color: #AEB7B3;
+}
+
+.color-blanco{
+    margin-bottom: 2rem;
+    color: white;
+}
+.color-blanco2{
+    color: white;
+}
+
+.alinear-centro{
+    text-align: center;
+}
+
+.borde-derecha{
+    border-right: 2px solid #AEB7B3;
+    padding-right: 10vw;
+}
+
+.color-distinto{
+    color: #AEB7B3;
+}
+
+.color-distinto-tras{
+    color: rgba(217, 217, 217, 0.5);
+    margin: 0;
 }

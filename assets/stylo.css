@@ -1,0 +1,323 @@
+/*--------------------------------------------------------------------------------------------------------------------*/
+html, body{/*Fondo de pantalla*/
+    background-color: #023C40;
+    overflow-x: hidden;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.bajar{/*Bajar un poco el nav*/
+    padding-top: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.centrar_titulo{/*Centrar titulo Mega Games*/
+    text-align: center;
+    color: #AEB7B3;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.tamaño{/*tamaño carrusel*/
+    max-height: 800px;
+    min-height: 220px;
+    min-width: 317px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.separar_items{/*Separar el navbar : inicio, nosotros, juegos, iniciar session, registrarse*/
+    padding-right: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.inicio{/*Padding-left : para que nos que tan pegado a la izquierda*/
+    padding-left: 2rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.bordear{ /*Bordear fotos*/
+    border-radius: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.tam_foto{ /*Se ocupo para poner del mismo tamaño las mascotas en adopta.html*/
+    height: 20rem;
+    width: 100%;
+}
+.tamaño-card{
+    width: 20rem;
+}
+.texto-card{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.btn:hover{ /*Diseño de lupa, carrito y perfil*/
+    background-color: #023C40;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+.nav-nuevo{
+    background-color:#AEB7B3;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.quitar-puntos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.espacio-il{
+    padding: 15px;
+}
+.color-il{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+
+.mover-derecha{
+    margin-right: 10px;
+}
+
+.logo{
+    display: inline-block;
+    max-width: 75px;
+    max-height: 75px;
+    
+}
+
+.tam-fuente{
+    font-size: 1.5rem;
+}
+
+.tam-titulo{
+    font-size: 4rem;
+}
+.tam-titulo2{
+    font-size: 3rem;
+}
+
+.color-fondo{
+    background-color: #22333B;
+}
+
+.display-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cambiar-texto-footer{
+    list-style-type: none;
+    padding: 0;
+}
+.quitar-azul{
+    text-decoration: none;
+    color: white;
+}
+.quitar-azul2{
+    text-decoration: none;
+    color: #AEB7B3;
+}
+
+.color-blanco{
+    margin-bottom: 2rem;
+    color: white;
+}
+.color-blanco2{
+    color: white;
+}
+.color-blanco3{
+    color: white;
+}
+
+.alinear-centro{
+    text-align: center;
+}
+
+.borde-derecha{
+    border-right: 2px solid #AEB7B3;
+    padding-right: 10vw;
+    min-height: 136px;
+}
+
+.color-distinto{
+    color: #AEB7B3;
+}
+
+.color-distinto-tras{
+    color: rgba(217, 217, 217, 0.5);
+    margin: 0;
+}
+
+.controlar-forma{
+    max-width: 207px;
+}
+@media screen and (max-width: 320px) {
+    .tam-titulo{
+        font-size: 2.5rem;
+    }
+    .tam-titulo2{
+        font-size: 2rem;
+    }
+    .controlar-forma{
+        max-width: 185px;
+    }
+    .borde-derecha{
+        border-right: 2px solid #AEB7B3;
+        padding-right: 3vw;
+        min-height: 136px;
+    }
+    .color-blanco{
+        margin-bottom: 1rem;
+        color: white;
+        font-size: .7rem;
+    }
+    .color-blanco2{
+        color: white;
+        font-size: .7rem;
+    }
+    .color-blanco3{
+        color: white;
+        font-size: .7rem;
+        margin-top: .9rem;
+    }
+    .quitar-azul{
+        text-decoration: none;
+        color: white;
+        font-size: .7rem;
+    }
+    .quitar-azul2{
+        text-decoration: none;
+        color: #AEB7B3;
+        font-size: .7rem;
+    }
+    .color-distinto{
+        color: #AEB7B3;
+        font-size: .7rem;
+    }
+    
+    .color-distinto-tras{
+        color: rgba(217, 217, 217, 0.5);
+        margin: 0;
+        font-size: .7rem;
+    }
+}
+@media screen and (min-width:321px) and (max-width: 575px) {
+    .tam-titulo{
+        font-size: 2.5rem;
+    }
+    .tam-titulo2{
+        font-size: 2rem;
+    }
+    .controlar-forma{
+        max-width: 185px;
+    }
+    .borde-derecha{
+        border-right: 2px solid #AEB7B3;
+        padding-right: 4vw;
+        min-height: 136px;
+    }
+    .color-blanco{
+        margin-bottom: 1rem;
+        color: white;
+        font-size: .9rem;
+    }
+    .color-blanco2{
+        color: white;
+        font-size: .9rem;
+    }
+    .color-blanco3{
+        color: white;
+        font-size: .9rem;
+        margin-top: 1.5rem;
+    }
+    .quitar-azul{
+        text-decoration: none;
+        color: white;
+        font-size: .9rem;
+    }
+    .quitar-azul2{
+        text-decoration: none;
+        color: #AEB7B3;
+        font-size: .9rem;
+    }
+    .color-distinto{
+        color: #AEB7B3;
+        font-size: 1rem;
+    }
+    
+    .color-distinto-tras{
+        color: rgba(217, 217, 217, 0.5);
+        margin: 0;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .tam-titulo{
+        font-size: 3rem;
+    }
+    .tam-titulo2{
+        font-size: 2.5rem;
+    }
+    .borde-derecha{
+        border-right: 2px solid #AEB7B3;
+        padding-right: 5vw;
+        min-height: 136px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .borde-derecha{
+        border-right: 2px solid #AEB7B3;
+        padding-right: 8vw;
+        min-height: 136px;
+    }
+}
+/*Nosotros*/
+.centrar-titulo{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+.centrar-titulo2{
+    text-align: justify; /*Justify = justificar el texto*/
+    color: black;
+}
+.tamaño_foto_nosotros{
+    height: 25rem;
+    width: 48rem;
+
+}
+.borde{
+    border: 1px black solid;
+    border-radius: 20px 0px;
+    background-color: antiquewhite;
+}
+.relleno{
+    padding: 0.5rem;
+    
+}
+.space{
+    padding-top: 5rem;
+}
+/*Catalogo*/
+
+.tam_catalogo{
+    width: 17rem;
+    height: 21rem;
+    margin: 1rem;
+}
+.tam_foto_catalogo{
+    height: 17rem;
+}
+
+.emparejar{
+    display: flex;
+    padding-left: 5rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

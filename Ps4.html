@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/stylo.css">
+</head>
+</head>
+<body>
+    <header class="bajar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item separar_items">
+                            <a class="nav-link active tam-fuente" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item separar_items">
+                            <a class="nav-link tam-fuente" aria-current="page" href="./Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item separar_items">
+                            <a class="nav-link tam-fuente" href="./Catalogo.html">Juegos</a>
+                        </li>
+
+                        <li class="nav-item separar_items">
+                            <a class="nav-link tam-fuente d-block d-md-none d-lg-none d-xl-none d-xxl-none" href="#">Iniciar sesión</a>
+                        </li>
+
+                        <li class="nav-item separar_items">
+                            <a class="nav-link tam-fuente d-block d-md-none d-lg-none d-xl-none d-xxl-none" href="#">Carrito</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <form class="d-flex flex-nowrap my-2 -my-lg-0">
+                    <div class="input-group"> 
+                        <input class="form-control mr-sm-2 controlar-forma" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">🔎</button>
+                        <button class="btn btn-outline-success d-none d-sm-block" type="button">🛒</button>
+                        <button class="btn btn-outline-success d-none d-sm-block" type="button">👤</button>
+                    </div>
+                </form>
+                
+            </div>
+        </nav>
+    </header>
+    
+        
+    <div class="row col-11 mx-auto ">
+        <h1 class="centrar-titulo"> Mega Games</h1>
+        <hr class="centrar-titulo">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxATEhESExMVFhUVFxkVGBUXGBkWGBUXGBcWFxsVFhcdHSggGBolHBcZITEhJSkrLi4uFyAzODMsNygtLisBCgoKDg0OGxAQGjclICUrLS0tLS0rLS0tLzItMC81LS0tLS0tLS0tLy0rLSsvLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQcDBAYCCAH/xABHEAABAwIDBAcCCQoFBQEAAAABAAIDBBEFEiEGBxMxIkFRYXGBkVOhFBYyUlSCktHSFyNCYnKToqOxwRUkM0OyJTRjc4MI/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAMEBQIGAQf/xAA2EQACAQICBwYFAgcBAAAAAAAAAQIDEQQhBRIxQWGBkRMVUaGxwVJx0eHwFCIGIzJTcpLxQv/aAAwDAQACEQMRAD8Ao1ERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBEXTbA4DDW1baeaR0bSxzhltme5ouGNvpe1z9VczkoxcnsR9Su7HMorhO7XCfpFb9iJefyc4P8ASK37MKqfr6Xg+hd7txXwMqBFcLd2+EkgCorNTa5bFYX7dFWGP4W6lqZ6dxuYnll+WYA6Ot1XFj5qWjioVm1HavEgrYarRt2kbXI1EUns/hElXUw00ejpHZbnk0c3OPcACfJTykopyexEBGIrgO77B2ktdLXPINszTC1pt1gFpNl5+IeCe0r/AFg/AqX6+n4Pp9zQWi8W1dQ9CoUVvfELBPaV/rB+Fbcm6vDo2GV9RVOYcrg1gjD2Me3TiXB5kO1AA6uq6+d40Vtv0I56PxMGlKG3JbMylkVwfk+wX2tf/J/CjtgMFH+7iH8n8K57zo70/L6kndWL+Ap9FbfxAwb21b6RfhT4gYN7eu9IvuXXeWH8T73TjP7bKkRWziO6tj4YpKJ8pLpMrjUFjWNjDXF0t2i9gQB13uv2Pd3hbBaWpqXuHynRNjYwn9XOCbL73jQaum3wt+LzIY4HESm4KDutvAqVFb3xCwT2uIfyPwr9bsBgftq/0g+5fO8aPHy+pN3VjP7bKgRXGd3eCnlNXjx4J/o1cPtvsi6gdG5sglgmuY5ALHo2ux46nC48fUCSljaVWWqrp7rraV62ErUVepGxyiIu03e7KU9cakzyyMbC1jrRgFzs7iL69Qt2danq1FTi5y2fXIghFzkorazi0Vw/k1wj6RW/YiT8m2EfSa37MSq94UvB9C33divgZTyLsd4OykVC6ndBI98U7HFpkADg5jrOBtpbVvquOVunOM4qUdjKkouLcZLNBERdnIWxSVL43skjcWvY4Oa4cw4G4I81rqW2ZojPV0sIF+JNG0+BcLnyFyuZyUYuT2JAuzaJ9pBoA4sY59hYcQi7rDq5qM43eve0FTnqJndRe4DwBsPcFH8TxWJBWgr+CP0fD0XGjBPbZehIxzEEFcLvip8uKTO6pWRSD7AZ/Vh9V1rZdFAb5IryYdP7Ska0+Mbjf/kpMM9XERtvTXo/YxP4hpWowlxfmvsVwrP3TUXDjq693MD4LF+3ILvI8G5fUqsgL6BXfV0opKWjoRo6OMSy9f56TpOF+64HgVZ0hP8AbGl8Tz+SzfXJczF0Thv1GJjF7Fm+RgkmWAym/NYTIsZcqtj9AUDcjeS4AcybDxOinai5q8Vlv0YYqegZroTlEj7jtBNvMqM2Uiz1cAPISBx8GHP/AGWbi/5R8l7/AAysqKnxYHOiZ5FrbqvVV5JW/L39IsxtIR18ZQo/OT+X5FmsxykMNmEbamoIBFPBJLY8i5rdAfMqJYe9Sc2FVU+G1jKZmeSZzIh0mt6DS1z9XEDkbea5qJatm7XaX5yJtJVOzw05b7W6nCDe1iXzKb9yPvX7+VrEvmUv7kfesH5KMZ+jt/fRfjXmTdZjIBPwYG2thLESfAZ9Vo6uA+KP+/3PEdrW/EvoWLT47UzYbSyTEB85e4hoygRsc5rQAOo8/NRbpCpDHoBC2mpgf9CCKP6wbck95UO9/es+jZx1krXbfV3XlY9zoujq4aF9rV3z+1jexLFvgWHuqWxxvlfO2KPiMztADMzjbwus9RiD5aSilfHEySVjpHCNmQZS4hmlyfki/NcvvXmyQ4bTA68I1Dh2mU2b7muC6zaOkcx8ULGOyQQxQiwJHRZ29fNHCCpxm1nKUnfgskZeEm6+lKjv+2N8r5ZZLLYaEcpUfvLf/wBLpmnm6qLm/sthyu/iIW82nkA1a4eIKgd8VRY4dTeypuIf2pnXt49D3qWi4zrwivG/RMn09JRw1lvf57FbK2N1eHOgpaqsk+TOPg8Tfn2N3SeAIt4grg9kcCfW1UVO3QE5nu+ZG3V7z4Dl3kK4arLJJFTU4tGwCGJnY0aBx8eZKt6RrpfyucuC3Lm0uSZgaIwnb1td/wBMc2/QwcVeeKvOLQGGWSLNctNr8r960hL3qnGzSaPZwgpxUlsefUw7y4uJhcEnXBUlh7myMLv6gKoFdWIw8bDcRivq2Ns4/wDk67v4VSq0cA7RlDwfrn9TxemKXZ4uS8c+uYREV4ywu53PwB2JMkPKCKWY/VYWi/m8LhlZm6aDLBiVQfmMp2n/ANhLnD0aPVVca2qErb8urS9ybDU+1rQp+LSJWZ93EnmdVgc5Z6OnMkscQ0zva2/ZmIbf3rWqoyx7mHm0kHxBI/ss5yTZ+nppytz5GTMtXeXEH4bh8vXHLLCT3ODZAPQLIwrY2qHEwWb/AMNXHIPrsMf3r4m41KbXxLzuvcx9PU9bByfg0/Ve5yW7HCRPXxvePzVMDUyHui1aPN+XTsuuyxSrdLLI86ue4m3PmdB/ZY9i6QUuFGQ/6la/wIhiuAPN1z3gqX2NoBLVNJHQj/Ou7OiRp629CucVWTqTq7lkuW3rLLkUdBU1h8NPEz3+i+rIrFabgyOi5ltg4/rZRm8g648lp5ls4rU8SaWT57nH1cStKykjeyvtPUU01FKW22fz3+ZPbNTmIVlT9HpZpB+1lAaPesm0EPCFJS/R6eGM/tZSXHzzBe9n6W9M5mn+ZqqensetoeJpR33ja5aeOVPFqZ5ByL3W8Mx/sAqqaniJcPt9zGh/M0nUluhFLm/xmAFbmLYph9DHTCpbUPkmYZLRFlmtvYXDiOf9itSKK7mgc7gDxK4/exUg4jJGPkwRxwD6jAT/ABOKnhS7arGm9mbfKyXmytpvGVMPTh2crNv0/wC+R1fx/wAF9jX/AMj71sYTt3HNVUtLh8L2GWRollnyuk4Y6T2sAuG9Fp193WqYXebo2AVc0xF+BTSvB7HOyxjzOcj1UmKwFGjQnNXuk7fN5Ld4s828fisRak5t3y2nZY5U8Somf2vdbwB09wC0WRFz2NHMuAHiTZey25KlNmIWmrh7GkvJ7Moz39yp63ZwutiXoe9lJUYXWyK9FkYq6gw6rra5szHzS0gjijhY8xngxsGaRtrZiHudcdVh2qfj22iaAAyfQW1kBPmSNVX27yQyVGL4hqAWPa0H51TJcegHvW4AFzPC3k6c23q23vJ6qbVk+fG+Z53Q2DpYilKpUjf91k7v68fM7+h2xbJIyMMmu9wb8tulzz5Kid4MxdiNZeR0mWUsDnWJs3o5dABpa3LqVnbNlrJXTu+TCx8zvBjSuD2DwcVtXLU1AvBCTPNpo97nEtiH7TursB7VPgY08NKpU3KK43beXp5lLTWGp06sKNGObV+raR1uyeG/AKG7haorGh7u2On1ys7i7Un0PILLi+KDD6J1QDaoqM0UA62N5Pm8uQPaR2rNO+Wpme8Mc8k3LWgmzR1acgBYKUxKEzlhmwpkhY0MbmjlOVo6h2BVJ1f3qVRa13eSTWfDN7NnJW4mnVwdWjg1hqNtZ5ybkl6v8S4kXjUpkZR1B/36aGQ9fSylrv8AiFE5lOY86QshaabgRxAsYAxzRY65Rfw/qoUhTUJXprn68OBsYCMo4eEZ7UrZNPZxWWwmNl7PkdE7lNE+E9+dp+5UjLGWuLXCxaSCOwjQhXJgsuSWJ/zXtPlm1911XG3tDwcRrY+rjOcPB/5we5y0cDL+dKPik+jf1R5r+JadqsJrerdPsznURFqHmgrg2Mh4WDM1/wC4qZJPqxtEWnmFT6vKeDhUeHQfNpo3HudJd7veVnaRkrQjxv0T92jW0JT18ZHhd9NnnYy7GU2asiPUw5z9XUe+y0dq4gKypA5cR59XE/3WekquBR4nUXLS2mdG13Ih8pDWkHtvZetr3h1QZG8pWRSDvDo2m6yo37dvda3Sz9z1tOvfSMqfhBeqfoyFa1T2DYSaumr6MEAyRNLb8g9kjbH1soMKZ2cxX4O+R5vcxPYO5xsWk91wpqut2b1NuTXJ39ifSFF1sPOmtrXuj1tG5nFbFH/pQNbBGOxsfR/rc3XQ7P0wp6ComOj3xvI7m2yN9XEn0XI4fA6aZjBe73AfaOp8hdTtdinEhrnMJ4bZ46CMa2LaZhc5w8XuIuPmhQVof001sur8c167eTM7GKMOxwcd7V/8Y/Vq/I5J41K8Fq2Q1fmTULQW03VK7Opwinc1lFlbdzWVdWGjmZMsdPHp1i0r/RRDNnqwHWnf9k/coHeEaiSvoKKncWyNp4YhlJaRJLq65HIWyk9wXdR7qoo4S+pxKuJY0ve9koYwBoJJDXBxsAO1QUMFVmu1jJLWu7NcW1vV8n7Hio6adCtVcYp60r3u+W/wI6mwisa5rhA+7SHDQnUG46lLudXOJJp2EnUkwAk+d1zmxGBYfifG4FVjLBFlzOkmiAJdewBa069EqC3qYFPhb6cw19U9kwfZr5XZ2FmW9yCA4HN2Dku56LnUd5SXSxxU032jvOlF/MsGJlYSAYIWjrc6Foa0dpK5N+2OHyV7oW5GRvgNO6qDQxr5RI17Xaf7YLSLn53ZqqtbitZJ+b4878/RycR7s99MuW/Svysrpo9xlG6OMyT1DZCxpe0cOzXkAuaOj1G4XdLREY31pbcsilW0g5uLhBRs75I8OwKqBtwnHvaLg94PYstDR1kLs7ICSWlvSaXCxtfRcVvP2Zkwl1K2nqqgxStfYOeRlcwtuBlsLWe3q7VH7uoZK+sbSzVNYGuY4h8UpGQtGa781+jpbTrIX2WjJuLi5pr5W9y+/wCIJyjaVNNPbt+pY1RS1jozEKVjGOIc4Rw5MxHK9lqjZ+p9g/7JUrW7qmiOUx4hX5wxxbeUEFwaSAQG3tdUVT4nWyPYxk9Q5z3BrWiR5LnONgBrzJK4houpTWrCSXL7inp9046sKSS4ZFr4/E+lw6ukkY5rpGNgZfS/EcMwHb0RfyW9SbOS01LDRxQvdYcSZ7WkiSZwsbHra0aDwW5T7nYZYYRVVdY6XK0vaJWuY2S3SyZoybA3F1xG9LDBhT6aClra0uexz3tfPo1tw1mUMDbXs/0XctGycba2d7vLhZb92fUq96t4n9RKF3ayV8lxN3bzGXUFMykhc5lTPaWV7SWvjjB6MYcDcOJbc9wI61XvxrxH6ZU/vn/ersZuXoZg2WWorTI9rXOzSRudctGhcYrm3LyVb4rR7NwzSw3xR5je5he002VxabEtu0G1x2K5RwVKnDVkk3tbaKOIxM69R1JbWTu7muqKylrIpHyTSRyRStzvLjlcHsIBceQ5+anvi7Vewd6LhcBwClrqyGDC5auE5HvmkqCy7GDLYs4RBdcm1j1kd67nafYGmoKR9VPX4i8MygiORoLnOcG9EO5c76nkOtVamjpa7lTaSbva2zJLx4Ghg9MVMNS7NRTzMrNn6r2L/RcDvjoyytieRZ0tPG94uLh7czDcdWjR71i/xnCfb4z+9hXK41URyTPdGZizk0zOD5CB84gAeXUpMNg506mvKX4/+EeP0nLGRUZRSsRyIi0TLN7CaMzzwwi95ZGR6frODb+9XjtLrUS25NOQdwb0f7KmtksUZS1lPUPaXNieHFotcjUXF9Li9/JWjNtjgbyXGeoBcSTeK9rm6ydIxqOcXGLaS3Lx/EbOh8TRw85SqO11ZdTS25lMeEOH0iqY36rGF/8AyAW5IM9HhknbSRs848zPuXHbxdqKepbTU9KXmGHO4ueMpe95AvbsAFvMqR2X2xoW0cNLV8djoC/I+MNeHNe7NZwJuCCSPAeSgeFqKjGeq76zbW/NW9kTUNI046RlXk/2u65Wy9iVEaygLwNq8D9tVfuh96fGvA/bVX7ofeo12i/8S/1Zvd84P4/JkjDVikpKuuOjo2Oih75pLAHyvfwusFDCY8Kw6I85GvqHdp4jiWn7K4zb/ayGpZBTUoeIIiXlzwA6WUi2aw5ADQeJXQ0G3GFuhp2TtqmPihjhIYIyz82212m97HvUsqNWMFLVebu1bNWVo+TdzEjpKlPSPbzf7Uml0t9zcaFs4ZTZ5omfOe0HwLhf3LR+OOB/OrPsx/evcW3eEQuEsYq3vZcta5rAC7UC5voNVy+1tlCV/kzXnpnC6r1ZZ2yyfI2djaX4ZtLWVNuhTOee7MwCnaP6uH7K7jfPifAwmps6zpiyFvfnddw82NeqZ3bbfjDp6qSaJ0oqAC4tIDg4Oc64voQcxv5LrNo96WD1zGR1VDUyMY7O1okyAOta5yvF9L8+0rbpx1IKHgkuh4du+ZP7sMArIKFj6OopXR1B415qaXiXsGZdJgLAtNtOsm+qrDfDi1TNiD4Z3xvNM0RAxNcxlyA9xDXOcQbusdf0QrAw/fXhsMccMVJUNjjaGMbdhs1osBcuueXMqpqHGYHV7qusidMx0jpnRBwGZziXBriRq251HWBZdnwsbdfss2ipnYzVxPe5rb00DWlzjm0EmUAnM4mzTyAu7stYe7LH6qspZZKljmStnkFnNLOg6z2hoI5NDsv1VTe1W9mvqJ89NI+mhDQ1sbSL97nG2pJ8gAO++fYve7V0z5TWOlqmPaA0F4BY4HmLjkQT6BAWDv8AMMMuGtmA1p5muJ/UeCw/xFnoub//AD5hzGMr6+SwYxoiDz+iGjiy+4RrxtLvlpqqkqab4JIONG5gcXtIa4jouIt1Gx8lzWH7wo4cHfhjIHcSQPDpswyniPu7o2v8jo80B9EYFXtqKeCoDS0TRskDTqQHtDrE9fNVDu+2RioqjEMSq25YaGSVkNx8pzC4GRo/SsLNb2ud2heNkt8dNTUVNTS08znwsEZc0sykNJsRcg8rKI273pMrnUkbIZG0scrZZo3EZpsrgcummW1+fWb9QQF9YJNLJBDJMzJJIwPcwfoFwzZL9ZaCBfuVC4s3/FdpOEelE2bh2tccKnBLx4OLX6/rrp6rfvTlj+HSyh5a7IS5mUPscpPdeyrrdptbBh9VLUzxSSudGWNLSLgucC5xzHUkC1+8oD6Wx7Fo6WnnqZL5ImFxDbXPUGtvbUkgDxXz+/F9lTc/Aa4uNzrJzPeeL710mP73MLrIHU89JUuicWlwD2tvlIcNQ7lcD0XEYxi2AmF7aagnbMRZr5J3Frf1rB3SI6ggJndBtfh9DPWvqLwsmDeHYOlyAOcTGSAXHQt1trlVmy7wtn6wsppHibiPa1sb4JHNLycrdCy17n3qidnKzCY2H4ZSz1EhP6MojY0dVgBmJ7bnyXQ4ZtRs/BNFPHhk4fE8SMJqC4BzTcGx0NiAUBej9isJsb0NKABqeCwWHWb2XybiDozLKYhaMvcWA6kMzHKCT3WVr7Wb7HzwSQU1PwjI0sdI9+Zwa4EEMAAANjzJ07FTyAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiID/9k=" class=" mx-auto tamaño_foto_nosotros" alt="foto de contacto">
+        <h1 class="centrar-titulo">Playstation 4</h1>
+        <hr class="centrar-titulo">
+        <br>
+        </div>
+
+    <div class="row mt-2 "> 
+        <div class="dropdown emparejar"><h5>Filtrar por:&nbsp;</h5>
+
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ninguno
+            </button>
+            <ul class="dropdown-menu">
+            <a href="./Ps4.html"><li><button class="dropdown-item " type="button">Playstation 4</button></li></a>
+            <a href="./Ps5.html"><li><button class="dropdown-item" type="button">Playstation 5</button></li></a>
+            <a href="./Nintendo.html"><li><button class="dropdown-item" type="button">Nintendo Switch</button></li></a>
+            <a href="./Xbox.html"><li><button class="dropdown-item" type="button">Xbox</button></li></a>
+            <a href="/Catalogo.html" class="dropdown-item" type="button">Todos</button></li></a>
+            </ul>
+        </div>
+        <div class="conteiner-fluid">
+            <div class="row mt-4 mb-4">
+                <!--God of War Ragnarok-->
+                <div class="text-center col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 mx-auto mb-4">
+                    <div class="card mx-auto bordear tamaño-card">
+                        <a href=""><img src="./assets/IMG/Foto juegos/ps4-god-of-war-ragnarok.jpg" class="card-img-top bordear tam_foto" alt="HALO INFINITE"></a>
+                        <div class="card-body">
+                        <p class="card-text"><a href="" class="texto-card">God of War Ragnarok <br> Ps4 Edition</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Grand theft auto the trilogy-->
+                <div class="text-center col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 mx-auto mb-4">
+                    <div class="card mx-auto bordear tamaño-card">
+                        <a href=""><img src="./assets/IMG/Foto juegos/ps4-grand-theft-auto-the-trilogy-the-definitive-edition.jpg" class="card-img-top bordear tam_foto" alt="CALL OF DUTY MODERN WARFARE"></a>
+                        <div class="card-body">
+                        <p class="card-text"><a href="" class="texto-card"> Grand theft auto the trilogy<br> Ps4 Edition </a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--It takes two-->
+                <div class="text-center col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 mx-auto mb-4">
+                    <div class="card mx-auto bordear tamaño-card">
+                        <a href=""><img src="./assets/IMG/Foto juegos/ps4-it-takes-two.jpg" class="card-img-top bordear tam_foto" alt="ARK SURVIVAL ASCENDED"></a>
+                        <div class="card-body">
+                        <p class="card-text"><a href="" class="texto-card">It takes two <br> Ps4 Edition</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--No mans Sky-->
+                <div class="text-center col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 mx-auto mb-4">
+                    <div class="card mx-auto bordear tamaño-card">
+                        <a href=""><img src="./assets/img/Foto juegos/ps4-no-mans-sky.jpg" class="card-img-top bordear tam_foto" alt="MORTAL KOMBAT 11 ULTIMATE"></a>
+                        <div class="card-body">
+                        <p class="card-text"><a href="" class="texto-card"> No mans Sky <br> Ps4 Edition</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+
+    <footer class="color-fondo mb-0 ">
+        <div class="display-footer ">
+            <div class="borde-derecha">
+                <ul class="cambiar-texto-footer">
+                    <li><a href="" class="quitar-azul">La empresa</a></li>
+                    <li><a href="" class="quitar-azul">Productos</a></li>
+                    <li><a href="" class="quitar-azul">Quienes Somos</a></li>
+                    <li><a href="" class="quitar-azul">Servicios</a></li>
+                    <li><a href="" class="quitar-azul">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="alinear-centro borde-derecha">
+                <h3 class="color-blanco">¿Dónde encontrarnos?</h3>
+                <a href="" class="quitar-azul2">El Árbol 123. Santiago. <br> Región Metropolitana</a>
+            </div>
+    
+            <div class="alinear-centro">
+                <h3 class="color-blanco3">Contactos</h3>
+                <ul class="cambiar-texto-footer">
+                    <li><a href="" class="quitar-azul2">Instragram</a></li>
+                    <li><a href="" class="quitar-azul2">Facebook</a></li>
+                    <li><a href="" class="quitar-azul2">Twitter</a></li>
+                    <li><a href="" class="quitar-azul2">WhatsApp</a></li>
+                    <li><a href="" class="quitar-azul2">E-mail</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="alinear-centro">
+            <h2 class="color-distinto">Mega Games</h2>
+            <p class="color-distinto">Términos de uso Políticas de privacidad Política de derechos de autor</p>
+            <p class="color-distinto-tras">© 2024 Mega Games • Diseñado por: VisionWeb</p>    
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

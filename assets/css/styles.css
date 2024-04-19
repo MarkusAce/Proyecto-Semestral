@@ -484,3 +484,61 @@ html, body{/*Fondo de pantalla*/
     padding-top: 37rem;
     padding-bottom: 37rem;
 }
+/*carrito*/
+.tamaño2{
+    max-height: 110px;
+    min-height: 55px;
+    min-width: 66px;
+}
+.margen1{
+    margin-left: 30px;
+}
+.margen2{
+    margin-right: 30px;
+}
+.juntar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinear1{
+    flex-direction: row;
+}
+
+.texto5{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contador {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.juntar1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.tamaño3{
+    max-height: 30px;
+    min-height: 1px;
+    min-width: 10px;
+}
+
+.boton3{
+    margin-bottom: 10px;
+}
+.boton4{
+    border-radius: 20%;
+}
+
+.boton-eliminar{
+    background-color: transparent;
+}

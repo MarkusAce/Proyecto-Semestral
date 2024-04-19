@@ -542,3 +542,10 @@ html, body{/*Fondo de pantalla*/
 .boton-eliminar{
     background-color: transparent;
 }
+
+.borde10{
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -85,7 +85,6 @@ html, body{/*Fondo de pantalla*/
     display: inline-block;
     max-width: 75px;
     max-height: 75px;
-    
 }
 
 .tam-fuente{
@@ -215,6 +214,241 @@ html, body{/*Fondo de pantalla*/
 .texto{
     font-size: 1.5rem;
 }
+.btn-ingresar{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+/*color letra*/
+.color-letra{
+    color: #eee;
+}
+
+/*registrarse*/
+
+.tam-perfil1{ 
+    height: 200px;
+    width: 200px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    text-align: center;
+}
+
+.separar{
+    margin-bottom: 20px;
+}
+
+.margen{
+    margin-left: center;
+}
+
+.centrar_titulo1{
+    text-align: center;
+    color: #AEB7B3;
+}
+.borde{
+    border-bottom: 1px solid black ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.espacio{
+    padding-top: 37rem;
+    padding-bottom: 37rem;
+}
+/*titulo e imagen en iniciar sesion*/
+.container{
+    text-align: center;
+}
+
+.tam-perfil{ 
+    height: 100px;
+    width: 100px;
+}
+/*ingresar datos en inicio de sesion*/
+.ingresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.posicion{
+    position: relative;
+    margin: 12px 0;
+}
+
+.posicion input{
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: #acacac solid 2px;
+    background-color: transparent;
+    color: #eee;
+    transition: 0.15s all ease;
+}
+
+.posicion input:focus {
+    border-color: #eee;
+}
+
+.posicion input::placeholder{
+    color: transparent;
+}
+
+.posicion .labell{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #acacac;
+    pointer-events: none;
+    transition: 0.15s all aese;
+}
+
+.posicion input:focus + .labell,
+.posicion input:not(:placeholder-shown) + 
+.labell{
+    transform: translate(5px, -22px);
+    background-color: #023C40;
+    font-size: 14px;
+    color: #eee;
+}
+
+/*Nosotros*/
+.centrar-titulo{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+.centrar-titulo2{
+    text-align: justify; /*Justify = justificar el texto*/
+    color: black;
+}
+.tamaño_foto_nosotros{
+    height: 25rem;
+    width: 48rem;
+
+}
+.borde1{
+    border: 1px black solid;
+    border-radius: 20px 0px;
+    background-color: antiquewhite;
+}
+.relleno{
+    padding: 0.5rem;
+    
+}
+.space{
+    padding-top: 5rem;
+}
+/*Catalogo*/
+
+.tam_catalogo{
+    width: 17rem;
+    height: 21rem;
+    margin: 1rem;
+}
+.tam_foto_catalogo{
+    height: 17rem;
+}
+
+.emparejar{
+    display: flex;
+    padding-left: 5rem;
+    color: white;
+}
+.quitar-diseño{
+    text-decoration: none;
+    color:black;
+}
+.quitar-link{
+    text-decoration: none;
+}
+/*carrito*/
+.tamaño2{
+    max-height: 200px;
+    min-height: 55px;
+    min-width: 66px;
+}
+.margen1{
+    margin-left: 30px;
+}
+.margen2{
+    margin-right: 30px;
+}
+.juntar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinear1{
+    flex-direction: row;
+}
+
+.texto5{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contador {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.juntar1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.tamaño3{
+    max-height: 30px;
+    min-height: 1px;
+    min-width: 10px;
+}
+
+.boton3{
+    margin-bottom: 10px;
+}
+.boton4{
+    border-radius: 20%;
+}
+
+.boton-eliminar{
+    background-color: transparent;
+}
+
+.moverizquierda{
+    padding-left: 1rem;
+}
+
+.moverderecha{
+    padding-right: 1rem;
+}
+.letras-carrito{
+    font-size: 1.3rem;
+}
+.borde10{
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (max-width: 320px) {
     .tam-titulo{
@@ -290,6 +524,9 @@ html, body{/*Fondo de pantalla*/
     .texto{
         font-size: 1rem;
     }
+    .letras-carrito{
+        font-size: .7rem;
+    }
 }
 @media screen and (min-width:321px) and (max-width: 575px) {
     .tam-titulo{
@@ -344,6 +581,9 @@ html, body{/*Fondo de pantalla*/
     .texto{
         font-size: 1rem;
     }
+    .letras-carrito{
+        font-size: .8rem;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px){
@@ -361,6 +601,9 @@ html, body{/*Fondo de pantalla*/
     .texto{
         font-size: 1rem;
     }
+    .letras-carrito{
+        font-size: .9rem;
+    }
 }
 @media screen and (min-width:768px) and (max-width:991px){
     .borde-derecha{
@@ -369,6 +612,9 @@ html, body{/*Fondo de pantalla*/
         min-height: 136px;
     }
     .texto{
+        font-size: 1.1rem;
+    }
+    .letras-carrito{
         font-size: 1.1rem;
     }
 }
